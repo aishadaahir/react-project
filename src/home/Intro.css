@@ -1,0 +1,49 @@
+.css-1cblbkl, [data-css-1cblbkl] {
+    color: #282c34;
+    margin-bottom: 0;
+    margin-top: calc(40px + var(--survey-banner-height-normal) + var(--social-banner-height-normal));
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.what{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.btnshow{
+    background: #008080;
+  color: #fff;
+  /* padding: .4rem 1rem; */
+  /* margin-top: 5px; */
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.learn{
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.intro {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 42em;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-top: 15px;
+}

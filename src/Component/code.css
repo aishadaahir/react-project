@@ -1,0 +1,50 @@
+.codeblock, .video-embed, svg:not(:root) {
+    overflow: hidden;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+}
+
+.shiki {
+    /* padding: 3rem 2rem; */
+    border-radius: 5px;
+    line-height: 1.4em;
+    margin: 0;
+    overflow: auto;
+    background-color: #31324e; 
+    color: #c9cdd7
+}
+
+code, pre {
+    font-family: Menlo,Consolas,"Liberation Mono",Courier,monospace;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+pre, textarea {
+    overflow: auto;
+}
+
+.shiki::before {
+    content: attr(data-language);
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    color: hsl(240deg 54% 95%);
+    font-size: 12px;
+    opacity: .7;
+    border: 1px solid;
+    padding: 0 6px;
+    border-radius: 3px;
+    line-height: 1.5em;
+}
+
